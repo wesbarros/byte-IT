@@ -1,4 +1,4 @@
-![Logo colorido da byte IT](https://github.com/wesbarros/byte-IT/assets/111614324/88afbd6d-5a3b-41c6-9b2e-e4c7ee2a2c85)
+![Logo da empresa byte it](https://github.com/wesbarros/byte-IT/assets/111614324/11acc6b1-6ad0-488c-bf22-0e0e4145ccda)
 
 
 <p>Pagina web pedida pelo Matheus para um colega sobre uma empresa de prestação de serviços de suporte TI, Telecom e CFTV</p>
