@@ -10,6 +10,13 @@ body {
   padding: 40px 0;
 }
 
+.layout_padding-sobre {
+  padding-top: 90px !important;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
 .layout_padding2 {
   padding: 75px 0;
 }
@@ -59,6 +66,9 @@ body {
   font-weight: bold;
   margin-bottom: 0;
   text-transform: uppercase;
+  color: #cb6003;
+  text-align: left;
+  font-size: 1rem;
 }
 
 .heading_container p {
@@ -121,6 +131,7 @@ a:focus {
           align-items: flex-end;
   overflow: hidden;
   z-index: -1;
+
 }
 
 .hero_area .hero_bg_box img {
@@ -144,7 +155,7 @@ a:focus {
 
 .header_section {
   padding: 10px 50px 10px 10px;
-  background-color: #101010;
+  background-color: white;
   position: fixed;
   z-index: 100;
   width: 100%;
@@ -174,7 +185,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
-  color: #ffffff;
+  color: #282d84;
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
@@ -288,12 +299,12 @@ a:focus {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 15px;
-  color: #ffffff;
+  color:#db6b09
 }
 
 .slider_section .detail-box p {
   color: #fefefe;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .slider_section .detail-box .btn-box {
@@ -341,7 +352,6 @@ a:focus {
 }
 
 .slider_section .carousel-indicators {
-  position: unset;
   margin: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -893,4 +903,19 @@ a:focus {
 
 p{
   text-align: justify;
+}
+
+.destaque{
+  font-size: 1.5rem;
+  font:bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.marcar{
+  color: #cb6003;
+}
+
+.icone-titulo{
+  max-width: 80px;
 }

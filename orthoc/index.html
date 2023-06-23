@@ -39,7 +39,7 @@
   <div class="hero_area">
 
     <div class="hero_bg_box">
-      <img src="images/fundo_banner.jpg" alt="">
+     <img src="images/bannerazul.png" alt="banner com uma antena em destaque e cidade ao fundo">
     </div>
 
     <!-- header section strats -->
@@ -48,7 +48,7 @@
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <span>
-              <img src="images/LOGO FINAL-03.png" id="logo">
+              <img src="images/LOGO FINAL-01.png" id="logo">
             </span>
           </a>
 
@@ -56,13 +56,35 @@
             <span class=""> </span>
           </button>
 
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#home"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre"><b>Sobre</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicos"><b>Serviços</b></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#contato"><b>Contato</b></a>
+              </li>
+              
+              <form class="form-inline">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+              </form>
+            </ul>
+          </div>
 
         </nav>
       </div>
     </header>
     <!-- end header section -->
     <!-- section carroussel -->
-    <section class="slider_section ">
+    <section class="slider_section " id="home">
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -143,13 +165,9 @@
   </div>
   <!--Section quem somos-->
 
-  <section class="about_section layout_padding cinza">
+  <section class="about_section layout_padding-sobre cinza" id="sobre">
     <div class="container">
-      <div class="heading_container">
-        <h2>
-          Nossa história
-        </h2>
-      </div>
+      
       <div class="row">
         <div class="col-md-6 ">
           <div class="img-box">
@@ -157,15 +175,36 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="detail-box">
-            
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis iaculis malesuada augue, non vulputate leo eleifend at. In et risus turpis. Proin condimentum velit eget aliquam tincidunt. Morbi non euismod diam. In vel erat a neque euismod venenatis. Pellentesque tincidunt gravida arcu, non tempus velit placerat id. Fusce et ligula non nisl congue porta.
-
-Mauris placerat purus eu libero ornare tristique. Vivamus ut sapien eros. Integer varius molestie elit, sit amet condimentum libero pharetra ut. Mauris nisi ligula, elementum vel pretium id, elementum eget elit. Proin augue mauris, volutpat vitae eleifend at, faucibus vitae est. Phasellus a eros ut purus ultricies laoreet. Phasellus nunc mauris, venenatis a eros at, lacinia tincidunt purus. Proin venenatis commodo leo vel porttitor. Aenean gravida erat in dignissim bibendum. Donec eu ex quis sem porttitor dignissim id in est. Ut sollicitudin eu sapien sit amet viverra. Vivamus vel est sed arcu vulputate tristique. Proin consequat nisi vitae eleifend dignissim. Donec a felis eget sem lobortis tempor.
-
-Donec eget varius ligula. Curabitur ornare urna leo, nec mattis ex iaculis at. Suspendisse vulputate mauris purus. Nunc ultricies, neque a porta vestibulum, erat mauris fermentum metus, sit amet aliquet eros libero rhoncus magna. Donec vitae metus augue. Duis tortor magna, laoreet sed rutrum a, accumsan at ligula. Donec dignissim mattis auctor. Duis ullamcorper elit pretium, mollis odio vitae, convallis elit. Duis elementum egestas nulla, in scelerisque nulla finibus id. Donec vel urna non ante maximus interdum. Donec placerat tempor est, nec rutrum leo feugiat quis. Sed quis orci eu metus dapibus aliquet nec accumsan augue.
+          <div class="heading_container">
+            <h2>
+              Quem somos
+            </h2>
+            <p class="destaque">
+              <span class="bg-info text-light">Potencializar resultados</span> dos nossos parceiros e clientes, através de técnologia e infraestrutura é nossa missão.
             </p>
+          </div>
+          <div class="detail-box">
+            <p>
+              Há 3 anos no mercado na nossa empresa, nos dedicamos a fornecer soluções tecnológicas confiáveis e inovadoras para ajudar nossos clientes a alcançarem seus objetivos de negócios. Com uma equipe de profissionais altamente qualificados e experientes, estamos preparados para atender às necessidades tecnológicas de empresas de diversos setores. Sempre atualizados com as últimas tendências e avanços tecnológicos para oferecer as melhores soluções aos nossos clientes. Nossa abordagem personalizada e atendimento ao cliente de qualidade são fundamentais para estabelecer relacionamentos duradouros e bem-sucedidos.
+            </p>
+            <p>
+              Nossos principais serviços incluem:
+            </p>
+            <div class="row g-2 mb-4 pb-2">
+              <div class="col-sm-6">
+                  <i class="fa fa-check text-info me-2"></i>Suporte em TI
+              </div>
+              <div class="col-sm-6">
+                  <i class="fa fa-check text-info me-2"></i>Telecomunicações
+              </div>
+              <div class="col-sm-6">
+                  <i class="fa fa-check text-info me-2"></i>CFTV
+              </div>
+              <div class="col-sm-6">
+                  <i class="fa fa-check text-info me-2"></i>Redes
+              </div>
+            </div>                            
+          </div>
           </div>
         </div>
       </div>
@@ -176,11 +215,11 @@ Donec eget varius ligula. Curabitur ornare urna leo, nec mattis ex iaculis at. S
 
   <!-- section introdução-->
 
-  <section class="department_section layout_padding">
+  <section class="department_section layout_padding-sobre" id="servicos">
     <div class="department_container">
       <div class="container ">
         <div class="heading_container heading_center">
-          <h2>
+          <h2 style="font-size: 2rem;">
             Nossos serviços
           </h2>
           <p>
@@ -207,10 +246,21 @@ Donec eget varius ligula. Curabitur ornare urna leo, nec mattis ex iaculis at. S
           <div class="col-md-6">
             <div class="detail-box">
               <div class="heading_container">
-                <h2>
-                  SUPORTE DE T.I.
-                </h2>
+                <div class="row">
+                  <div class="col-md-2">
+                    <img class="icone-titulo" src="images/isuporte.png" alt="icone de suporte de TI">  
+                  </div>
+                  <div class="col-md-10">
+                    <h2>
+                      SUPORTE DE T.I.
+                    </h2>
+                  </div>
+                </div>
+
               </div>
+              <p class="destaque">
+                <span class="bg-info text-light">Alcance o máximo potencial</span> de sua empresa superando seus desafios tecnológicos com nossa <span class="marcar">equipe de especialistas em T.I</span>.
+              </p>
               <p>
                 Somos uma <b>equipe dedicada</b> e apaixonada por resolver os desafios tecnológicos que você enfrenta diariamente. Nossa abordagem é baseada na <b>excelência do serviço</b> ao cliente e na resolução eficiente de problemas. Compreendemos que cada minuto de inatividade pode impactar negativamente seus negócios, por isso trabalhamos diligentemente para garantir a rápida recuperação de quaisquer problemas técnicos. Nossos especialistas em T.I. são <b>altamente qualificados</b> e atualizados com as últimas tendências do setor, para que possamos fornecer as melhores soluções e mantê-lo sempre à frente da concorrência.
               </p>
@@ -228,10 +278,20 @@ Donec eget varius ligula. Curabitur ornare urna leo, nec mattis ex iaculis at. S
           <div class="col-md-6">
             <div class="detail-box">
               <div class="heading_container">
-                <h2>
-                  TELECOMUNICAÇÕES
-                </h2>
+                <div class="row">
+                  <div class="col-md-2">
+                    <img class="icone-titulo" src="images/itelecom.png" alt="icone de suporte de TI">  
+                  </div>
+                  <div class="col-md-10">
+                    <h2>
+                      TELECOMUNICAÇÕES
+                    </h2>
+                  </div>
+                </div>
               </div>
+              <p class="destaque">
+                <span class="bg-info text-light">Conecte-se com o mundo</span>. Nossas soluções de <span class="marcar">telecomunicações</span> são o caminho para o <span class="marcar">sucesso </span>digital do seu negócio.
+              </p>
               <p>
                 Estamos aqui para <b></b>conectar você ao mundo</b>, fornecendo soluções avançadas e confiáveis ​​para atender às suas necessidades de comunicação. Nossa empresa está comprometida em fornecer a você a mais alta <b>qualidade de serviço</b>. Trabalhamos com as mais recentes tecnologias e seguimos as melhores práticas do setor para garantir que você tenha acesso a soluções de telecomunicações de ponta. Seja para comunicação de <b>voz, dados, internet ou soluções de rede</b>, estamos prontos para ajudar você a se manter conectado com eficiência e confiabilidade.
               </p>
@@ -259,10 +319,20 @@ Donec eget varius ligula. Curabitur ornare urna leo, nec mattis ex iaculis at. S
           <div class="col-md-6">
             <div class="detail-box">
               <div class="heading_container">
-                <h2>
-                  REDES
-                </h2>
+                <div class="row">
+                  <div class="col-md-2">
+                    <img class="icone-titulo" src="images/iredes.png" alt="icone de suporte de TI">  
+                  </div>
+                  <div class="col-md-10">
+                    <h2>
+                      REDES
+                    </h2>
+                  </div>
+                </div>
               </div>
+              <p class="destaque">
+                <span class="bg-info text-light">Nossos serviços</span> de Infraestrutura <span class="marcar">de Redes em T.I.</span> são o alicerce para o sucesso tecnológico da sua empresa.
+              </p>
               <p>
                 Somos especialistas em fornecer <b>soluções robustas e confiáveis</b> para atender às necessidades de conectividade da sua empresa. Sabemos que uma infraestrutura de rede eficiente é essencial para impulsionar o desempenho e garantir a comunicação perfeita em um ambiente de negócios cada vez mais digital. Com uma <b>equipe experiente e altamente qualificada</b>, oferecemos serviços abrangentes de planejamento, implementação e gerenciamento de infraestrutura de redes. Nossa abordagem <b>personalizada</b> nos permite entender as demandas exclusivas do <b>seu negócio</b> e projetar soluções escaláveis ​​e adaptáveis ​​que atendam às suas necessidades presentes e futuras.
               </p>
@@ -281,10 +351,20 @@ Donec eget varius ligula. Curabitur ornare urna leo, nec mattis ex iaculis at. S
           <div class="col-md-6">
             <div class="detail-box">
               <div class="heading_container">
-                <h2>
-                  CFTV
-                </h2>
+                <div class="row">
+                  <div class="col-md-2">
+                    <img class="icone-titulo" src="images/icftv.png" alt="icone de suporte de TI">  
+                  </div>
+                  <div class="col-md-10">
+                    <h2>
+                      CFTV
+                    </h2>
+                  </div>
+                </div>
               </div>
+              <p class="destaque">
+                <span class="bg-info text-light">Veja além dos limites.</span> Nossos serviços de CFTV proporcionam <span class="marcar">proteção 24 horas</span> por dia para o que realmente importa.
+                </p>
               <p>
                 Estamos aqui para fornecer <b>soluções de segurança</b> avançadas e eficientes para <b>proteger o que é mais importante para você</b>. Sabemos que a segurança é uma preocupação fundamental, seja para sua casa, sua empresa ou seu patrimônio, e estamos prontos para atender às suas necessidades de monitoramento e vigilância. <b>Nossas soluções</b> abrangem desde o projeto e instalação de sistemas de câmeras de segurança até a integração <b>com tecnologias avançadas</b> de análise de vídeo e armazenamento de dados.
                 Entendemos que cada cliente é único, e é por isso que oferecemos <b>soluções personalizadas</b> para atender às suas necessidades específicas. Nossa equipe de especialistas irá analisar suas demandas de segurança, propor um sistema de CFTV adequado e realizar a instalação com precisão e eficiência.
@@ -561,7 +641,7 @@ Donec eget varius ligula. Curabitur ornare urna leo, nec mattis ex iaculis at. S
   --><!-- end client section -->
 
   <!-- footer section -->
-  <footer class="footer_section">
+  <footer class="footer_section" id="contato">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-6 footer_col">
